@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Birthday Surprise</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- PIN PAGE -->
+  <div class="container" id="page1">
+    <div class="card">
+      <h1>🎀 A Little Surprise 🎀</h1>
+
+      <p>Enter the secret pin 💖</p>
+
+      <input type="password" id="pinInput" placeholder="Enter PIN">
+
+      <p class="hint">Hint: Your favourite number ✨</p>
+
+      <button onclick="checkPin()">Unlock Surprise 🎁</button>
+    </div>
+  </div>
+
+  <!-- BIRTHDAY PAGE -->
+  <div class="container hidden" id="page2">
+    <div class="card">
+
+      <h1>🎂 Happy Birthday 🎂</h1>
+
+      <p class="message">
+        You are truly one of the most special people in my life 💕
+        <br><br>
+        Thank you for existing and making everything brighter ✨
+      </p>
+
+      <div class="cute">
+        🧸 🌸 💖 🎀 ✨
+      </div>
+
+      <button onclick="openLetter()">
+        Open Your Letter 💌
+      </button>
+
+    </div>
+  </div>
+
+  <!-- LETTER PAGE -->
+  <div class="container hidden" id="page3">
+    <div class="letter-card">
+
+      <h1>💌 A Letter For You</h1>
+
+      <textarea placeholder="Happiest birthday to my one and only charming boss
+        I always wish you the best things will happen in your life.
+        I have always seen you working so hard and I'm always proud of you but my only concern just don't take much of risk and stress
+        You deserve all the happiness and love from people all around you and especially from my side I'll always love you no matter 
+        whatever the situation and even the whole world is against you and me 
+        
+        I always love you kanda, and You'll always be this kanda's KANDA
+        Lots of love dear, Spend your birthday with lots of happiness surrounded by the people you love and those who love you genuinely
+        Let's meet tomorrow evening, See yaa 
+        Bye-Bye"></textarea>
+
+      <p class="from">
+        With Love 
+        Lakshya💖
+      </p>
+
+    </div>
+  </div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
