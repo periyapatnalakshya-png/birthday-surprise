@@ -205,3 +205,34 @@ textarea{
   color:#ff4f87;
   font-weight:bold;
 }
+.letter-content{
+  text-align:left;
+  line-height:2;
+  color:#555;
+  font-size:18px;
+  margin-top:25px;
+}
+
+.letter-content p{
+  margin-bottom:22px;
+}
+
+.letter-start{
+  font-size:24px;
+  font-weight:bold;
+  color:#ff4f87;
+}
+
+.letter-end{
+  margin-top:40px;
+  color:#ff4f87;
+  font-weight:bold;
+}
+
+.letter-card{
+  width:650px;
+  background:white;
+  padding:50px;
+  border-radius:25px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.1);
+}
