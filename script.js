@@ -2,7 +2,7 @@ function checkPin(){
 
   const pin=document.getElementById("pinInput").value;
 
-  if(pin==="143"){
+  if(pin==="8055"){
     document.getElementById("page1").classList.add("hidden");
     document.getElementById("page2").classList.remove("hidden");
   }
