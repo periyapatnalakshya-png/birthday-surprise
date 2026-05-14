@@ -183,3 +183,25 @@ textarea{
 .music-btn:hover{
   transform:scale(1.05);
 }
+.letter-content{
+  text-align:left;
+  line-height:2;
+  color:#555;
+  font-size:18px;
+}
+
+.letter-content p{
+  margin-bottom:22px;
+}
+
+.letter-start{
+  font-size:22px;
+  font-weight:bold;
+  color:#ff4f87;
+}
+
+.letter-end{
+  margin-top:40px;
+  color:#ff4f87;
+  font-weight:bold;
+}
