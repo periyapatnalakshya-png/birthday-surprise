@@ -20,3 +20,10 @@ function openLetter(){
   document.getElementById("page3").classList.remove("hidden");
 
 }
+function playMusic(){
+
+  const song = document.getElementById("birthdaySong");
+
+  song.play();
+
+}
